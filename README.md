@@ -67,7 +67,7 @@ export default defineComponent({
 </script>
 
 傳統寫法在在其他版本上會遇到一些模組上問題
-
+```JS
 可以現檢查store部分
 // store/index.ts
 import { createStore } from 'vuex';
@@ -86,7 +86,7 @@ const store = createStore<State>({
   actions: {},
   modules: {}
 });
-
+```
 export default store;
 
 再 為 Vue 組件的 this.$store 提供類型支援
