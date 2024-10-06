@@ -18,9 +18,7 @@ createApp(App)
 
 這是使用 Vuex Store 的範例代碼：
 
-vue
-複製程式碼
-<PRE>
+```HTML
 <template>
   <div class="home">
     <h1>{{ greeting }}</h1>
@@ -43,7 +41,7 @@ export default defineComponent({
   }
 });
 </script>
-</PRE>
+```
 重要點：
 useStore()：在 Vue 3 中，可以使用 useStore() 來訪問 Vuex store。這是 Vuex 4 的一個新方法，適用於 Vue 3 中的組件。
 TypeScript 支援：如果你希望為 Vuex store 添加 TypeScript 支援，確保你在 store/index.js 或 store/index.ts 中為 state 定義了相應的類型。
